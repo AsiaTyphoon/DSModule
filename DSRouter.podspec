@@ -91,7 +91,7 @@ Pod::Spec.new do |s|
   s.source_files  = "DSRouter/**/*.{h,m,swift}"
   # s.exclude_files = "Classes/Exclude"
   s.module_name = "DSRouter"
-  s.module_map = "DSRouter/module.modulemap"
+  #s.module_map = "DSRouter/module.modulemap"
 
   # s.public_header_files = "Classes/**/*.h"
 
