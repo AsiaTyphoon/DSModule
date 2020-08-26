@@ -7,29 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D16DBB1321F6E80200EE2F66 /* DSRouter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D16DBB0921F6E80200EE2F66 /* DSRouter.framework */; };
-		D16DBB1821F6E80200EE2F66 /* DSRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16DBB1721F6E80200EE2F66 /* DSRouterTests.swift */; };
 		D16DBB1A21F6E80200EE2F66 /* DSRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = D16DBB0C21F6E80200EE2F66 /* DSRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D16DBB2421F6E82300EE2F66 /* DSRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16DBB2321F6E82300EE2F66 /* DSRouter.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		D16DBB1421F6E80200EE2F66 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D16DBB0021F6E80200EE2F66 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D16DBB0821F6E80200EE2F66;
-			remoteInfo = DSRouter;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		D16DBB0921F6E80200EE2F66 /* DSRouter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DSRouter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D16DBB0C21F6E80200EE2F66 /* DSRouter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSRouter.h; sourceTree = "<group>"; };
 		D16DBB0D21F6E80200EE2F66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D16DBB1221F6E80200EE2F66 /* DSRouterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DSRouterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D16DBB1721F6E80200EE2F66 /* DSRouterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSRouterTests.swift; sourceTree = "<group>"; };
-		D16DBB1921F6E80200EE2F66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D16DBB2321F6E82300EE2F66 /* DSRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSRouter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -41,14 +26,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D16DBB0F21F6E80200EE2F66 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D16DBB1321F6E80200EE2F66 /* DSRouter.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -56,7 +33,6 @@
 			isa = PBXGroup;
 			children = (
 				D16DBB0B21F6E80200EE2F66 /* DSRouter */,
-				D16DBB1621F6E80200EE2F66 /* DSRouterTests */,
 				D16DBB0A21F6E80200EE2F66 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -65,7 +41,6 @@
 			isa = PBXGroup;
 			children = (
 				D16DBB0921F6E80200EE2F66 /* DSRouter.framework */,
-				D16DBB1221F6E80200EE2F66 /* DSRouterTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -78,15 +53,6 @@
 				D16DBB2321F6E82300EE2F66 /* DSRouter.swift */,
 			);
 			path = DSRouter;
-			sourceTree = "<group>";
-		};
-		D16DBB1621F6E80200EE2F66 /* DSRouterTests */ = {
-			isa = PBXGroup;
-			children = (
-				D16DBB1721F6E80200EE2F66 /* DSRouterTests.swift */,
-				D16DBB1921F6E80200EE2F66 /* Info.plist */,
-			);
-			path = DSRouterTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -121,24 +87,6 @@
 			productReference = D16DBB0921F6E80200EE2F66 /* DSRouter.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D16DBB1121F6E80200EE2F66 /* DSRouterTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D16DBB2021F6E80200EE2F66 /* Build configuration list for PBXNativeTarget "DSRouterTests" */;
-			buildPhases = (
-				D16DBB0E21F6E80200EE2F66 /* Sources */,
-				D16DBB0F21F6E80200EE2F66 /* Frameworks */,
-				D16DBB1021F6E80200EE2F66 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D16DBB1521F6E80200EE2F66 /* PBXTargetDependency */,
-			);
-			name = DSRouterTests;
-			productName = DSRouterTests;
-			productReference = D16DBB1221F6E80200EE2F66 /* DSRouterTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -151,10 +99,7 @@
 				TargetAttributes = {
 					D16DBB0821F6E80200EE2F66 = {
 						CreatedOnToolsVersion = 9.4;
-						LastSwiftMigration = 0940;
-					};
-					D16DBB1121F6E80200EE2F66 = {
-						CreatedOnToolsVersion = 9.4;
+						LastSwiftMigration = "";
 					};
 				};
 			};
@@ -171,20 +116,12 @@
 			projectRoot = "";
 			targets = (
 				D16DBB0821F6E80200EE2F66 /* DSRouter */,
-				D16DBB1121F6E80200EE2F66 /* DSRouterTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		D16DBB0721F6E80200EE2F66 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D16DBB1021F6E80200EE2F66 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -202,23 +139,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D16DBB0E21F6E80200EE2F66 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D16DBB1821F6E80200EE2F66 /* DSRouterTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		D16DBB1521F6E80200EE2F66 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D16DBB0821F6E80200EE2F66 /* DSRouter */;
-			targetProxy = D16DBB1421F6E80200EE2F66 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		D16DBB1B21F6E80200EE2F66 /* Debug */ = {
@@ -351,6 +272,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = DSRouter/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -363,7 +285,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -378,6 +301,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = DSRouter/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -389,43 +313,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ds.net.cn.DSRouter;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		D16DBB2121F6E80200EE2F66 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = DSRouterTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ds.net.cn.DSRouterTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		D16DBB2221F6E80200EE2F66 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = DSRouterTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ds.net.cn.DSRouterTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -447,15 +336,6 @@
 			buildConfigurations = (
 				D16DBB1E21F6E80200EE2F66 /* Debug */,
 				D16DBB1F21F6E80200EE2F66 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D16DBB2021F6E80200EE2F66 /* Build configuration list for PBXNativeTarget "DSRouterTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D16DBB2121F6E80200EE2F66 /* Debug */,
-				D16DBB2221F6E80200EE2F66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

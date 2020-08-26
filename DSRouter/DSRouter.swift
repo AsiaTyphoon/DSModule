@@ -147,14 +147,14 @@ extension UIViewController {
     
     /// 正向传值
     public var positiveParameter: Any? {
-        set { objc_setAssociatedObject(self, RP.positivePointer, newValue, .OBJC_ASSOCIATION_COPY_NONATOMIC) }
-        get { return objc_getAssociatedObject(self, RP.positivePointer) }
+        set { objc_setAssociatedObject(self, RP.positivePointer!, newValue, .OBJC_ASSOCIATION_COPY_NONATOMIC) }
+        get { return objc_getAssociatedObject(self, RP.positivePointer!) }
     }
     
     /// 反向传值闭包
     public var reverseBlock: CodeBlock? {
-        set { objc_setAssociatedObject(self, RP.reversePointer, newValue, .OBJC_ASSOCIATION_COPY_NONATOMIC) }
-        get { return objc_getAssociatedObject(self, RP.reversePointer) as? CodeBlock }
+        set { objc_setAssociatedObject(self, RP.reversePointer!, newValue, .OBJC_ASSOCIATION_COPY_NONATOMIC) }
+        get { return objc_getAssociatedObject(self, RP.reversePointer!) as? CodeBlock }
     }
     
 }
