@@ -1,0 +1,23 @@
+# -----
+build/
+
+.DS_Store
+
+
+#
+bin/
+gen/
+libs/
+obj/
+
+local.properties
+
+.idea
+.gradle
+build/
+
+# Xcode
+xcuserdata
+xcshareddata
+*.xccheckout
+
