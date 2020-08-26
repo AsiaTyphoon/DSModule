@@ -1,2 +1,2 @@
-# DSRouter
-一个解耦度只有80% ( &lt; 80%？)的极简swift路由跳转框架（ 根本算不上框架？）
+# DSModule
+参考BeeHive实现的一个极简swift模块解耦框架
