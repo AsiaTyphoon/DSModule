@@ -12,7 +12,6 @@ workspace 'App'
 target 'App' do
     project 'App/App.xcodeproj'
 
-    pod 'DSModule', '~> 0.0.1'
 end
 
 
