@@ -19,7 +19,7 @@
 
 /* Begin PBXFileReference section */
 		37616870D1CC18EE02F10D6D /* Pods_DSModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DSModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		66059AD583D50FA4C4108606 /* Pods-DSModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DSModule.debug.xcconfig"; path = "Target Support Files/Pods-DSModule/Pods-DSModule.debug.xcconfig"; sourceTree = "<group>"; };
+		66059AD583D50FA4C4108606 /* Pods-DSModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DSModule.debug.xcconfig"; path = "../../DSModuleDemo/Pods/Target Support Files/Pods-DSModule/Pods-DSModule.debug.xcconfig"; sourceTree = "<group>"; };
 		D144946F24F64EA100F7AC8C /* DSModuleManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DSModuleManager.swift; sourceTree = "<group>"; };
 		D144947024F64EA100F7AC8C /* DSModuleProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DSModuleProtocol.swift; sourceTree = "<group>"; };
 		D144947124F64EA100F7AC8C /* DSModuleService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DSModuleService.swift; sourceTree = "<group>"; };
@@ -29,7 +29,7 @@
 		D197B30524F64DE4003EDB23 /* DSModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DSModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D197B30824F64DE4003EDB23 /* DSModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSModule.h; sourceTree = "<group>"; };
 		D197B30924F64DE4003EDB23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D23B8209C192C102F51F62AB /* Pods-DSModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DSModule.release.xcconfig"; path = "Target Support Files/Pods-DSModule/Pods-DSModule.release.xcconfig"; sourceTree = "<group>"; };
+		D23B8209C192C102F51F62AB /* Pods-DSModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DSModule.release.xcconfig"; path = "../../DSModuleDemo/Pods/Target Support Files/Pods-DSModule/Pods-DSModule.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
